@@ -7,7 +7,12 @@ require 'http/cookie'
 
 class HTTP::CookieJar
   autoload :AbstractStore, 'http/cookie_jar/abstract_store'
+  autoload :HashStore, 'http/cookie_jar/hash_store'
+  autoload :MozillaStore, 'http/cookie_jar/mozilla_store'
+
   autoload :AbstractSaver, 'http/cookie_jar/abstract_saver'
+  autoload :CookiestxtSaver, 'http/cookie_jar/cookiestxt_saver'
+  autoload :YAMLSaver, 'http/cookie_jar/yaml_saver'
 
   attr_reader :store
 

@@ -111,6 +111,3 @@ class HTTP::CookieJar::AbstractStore
     # self
   end
 end
-
-require 'http/cookie_jar/hash_store'
-require 'http/cookie_jar/mozilla_store'

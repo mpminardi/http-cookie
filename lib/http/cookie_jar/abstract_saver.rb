@@ -49,6 +49,3 @@ class HTTP::CookieJar::AbstractSaver
     # self
   end
 end
-
-require "http/cookie_jar/yaml_saver"
-require "http/cookie_jar/cookiestxt_saver"
