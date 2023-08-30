@@ -122,5 +122,5 @@ if defined?(JRUBY_VERSION)
     end
   end
 else
-  require 'http/cookie_jar/mozilla_store'
+  #require 'http/cookie_jar/mozilla_store'
 end
